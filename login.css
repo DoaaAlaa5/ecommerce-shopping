@@ -1,0 +1,101 @@
+.logo h1 {
+    color: #F8B326;
+}
+
+.logo span{
+    color: chocolate;
+}
+
+.logo img{
+    width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.p1{
+    color: #707B81;
+    width: 50%;
+    text-align: center;
+}
+
+.p2{
+    text-align: left;
+    width: 50%;
+    text-align: center;
+}
+
+form{
+    margin: auto;
+    width: 50%;
+}
+
+input[type="email"]{
+  border: none;
+  border-bottom: 2px solid #F8B326 !important;
+  outline: none; 
+  background-color: #00000006;
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="password"]{
+  border: none;
+  border-bottom: 2px solid #F8B326 !important;
+  outline: none; 
+  background-color: #00000006;
+  width: 100%;
+  padding: 10px;
+}
+
+.content{
+    background-color: #00000006;
+    text-align: center;
+    padding: 60px;
+    position: relative;
+}
+.content i{
+    color: #F8B326;
+}
+
+.content button{
+    text-align: center;
+    color: #F61B5A;
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.form-check-input:checked {
+  background-color: #F8B326;
+  border-color: #F8B326;
+}
+
+.form-check-input:checked::after {
+  content: "";
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
