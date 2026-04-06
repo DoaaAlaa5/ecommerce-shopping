@@ -36,15 +36,11 @@ const HeroSection = () => {
             />
           </div>
 
-          {/* الجزء اللي في النص: الكلام والزرار */}
-          <div className="col-7 text-white">
+        
+        <div className="col-7 text-white">
             <h1 
               className="fw-bold text-wrap text-start" 
-              style={{ 
-                fontSize: '2.5rem', // كبرت الخط شوية
-                lineHeight: '1.2',
-                textShadow: '1px 1px 2px rgba(0,0,0,0.3)' // ضل خفيف للكلام عشان يبان
-              }}
+             
             >
               Get <span className="fw-bolder">50% Off</span> on<br />
               Selected categories<br />
